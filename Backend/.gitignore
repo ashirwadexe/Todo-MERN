@@ -1,0 +1,77 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+log/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+*.sqlite
+*.sqlite-journal
+*.db
+*.db-journal
+dump.rdb
+*.sql
+
+# Binaries
+*.exe
+*.out
+*.app
+*.dmg
+
+# Build files
+dist/
+build/
+
+# Static files
+public/
+uploads/
+
+# Cache
+.cache/
+.next/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log.*
+
+# Test coverage
+coverage/
+
+# Others
+*.iml
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# SSL
+*.pem
+*.key
+certs/
+
+# VSCode Settings (optional)
+.vscode/
